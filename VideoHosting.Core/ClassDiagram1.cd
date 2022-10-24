@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="VideoHosting.Services.Services.AuthorizationService">
+    <Position X="2.25" Y="6.75" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier />
+    <Lollipop Position="0.1" />
+  </Class>
+  <Class Name="VideoHosting.DataBase.UnitOfWork.UnitOfWork">
+    <Position X="1.25" Y="9.75" Width="1.25" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="VideoHosting.Core.Controllers.Authorization">
+    <Position X="3.5" Y="0.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAIAAAABAAAAEAAEAAAAAAA=</HashCode>
+      <FileName>Controllers\AuthorizationController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VideoHosting.Services.Services.UserService">
+    <Position X="4.25" Y="6.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier />
+    <Lollipop Position="0.209" />
+  </Class>
+  <Class Name="VideoHosting.Services.Services.VideoService">
+    <Position X="7" Y="8" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="VideoHosting.Services.Services.CredentialService">
+    <Position X="0.5" Y="6.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="VideoHosting.Services.Services.CommentaryService">
+    <Position X="5.25" Y="10" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="VideoHosting.Core.Controllers.CredentialController">
+    <Position X="0.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ACAAIBAAAAAAAAAAAAABAAAAAAAAAAAgAAEAABAIAAA=</HashCode>
+      <FileName>Controllers\CredentialController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VideoHosting.Core.Controllers.UserController">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAABAABCBIAAQACAAAAEAAEQAAAAAA=</HashCode>
+      <FileName>Controllers\UserController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VideoHosting.Core.Controllers.VideoController">
+    <Position X="7.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAgEAAAAAAAAAAAiAAAJAIAIAQAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\VideoController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VideoHosting.Core.Controllers.CommentaryController">
+    <Position X="9.25" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAACAAAAAAAAAAAAAAAAABAAAAEA=</HashCode>
+      <FileName>Controllers\ComentaryController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VideoHosting.DataBase.Repositories.UserRepository" Collapsed="true">
+    <Position X="2.5" Y="14.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="VideoHosting.DataBase.Repositories.CommentaryRepository" Collapsed="true">
+    <Position X="0.5" Y="14.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="VideoHosting.DataBase.Repositories.VideoRepository" Collapsed="true">
+    <Position X="4.5" Y="14.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="VideoHosting.Abstractions.Services.IAuthorizationService">
+    <Position X="2.5" Y="4" Width="1.25" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="VideoHosting.Abstractions.UnitOfWork.IUnitOfWork">
+    <Position X="3" Y="9" Width="1.75" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="VideoHosting.Abstractions.Services.IUserService">
+    <Position X="4.25" Y="4" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="VideoHosting.Abstractions.Services.ICommentaryService">
+    <Position X="7.25" Y="10" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="VideoHosting.Abstractions.Services.IVideoService">
+    <Position X="7.25" Y="4.75" Width="1.75" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="VideoHosting.Abstractions.Services.ICredentialService">
+    <Position X="0.5" Y="4" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="VideoHosting.Abstractions.Repositories.ICommentaryRepository">
+    <Position X="0.5" Y="12.5" Width="1.75" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="VideoHosting.Abstractions.Repositories.IUserRepository">
+    <Position X="2.5" Y="12.5" Width="1.75" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="VideoHosting.Abstractions.Repositories.IVideoRepository">
+    <Position X="4.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
